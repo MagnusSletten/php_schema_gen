@@ -11,6 +11,6 @@ $data = Yaml::parseFile(__DIR__ . '/testyaml.yaml');
 $comp = $data['COMPOSITION']; 
 
 $lipid = Schema::ChemicalSubstance()
-    ->identifier($data['COMPOSITION']);
+    ->identifier($data['DOI']);
 
 echo $lipid->toScript();
