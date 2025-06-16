@@ -1,0 +1,6 @@
+{
+    "require": {
+        "spatie/schema-org": "^3.23",
+        "symfony/yaml": "^7.3"
+    }
+}

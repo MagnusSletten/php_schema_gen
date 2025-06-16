@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Example Dataset",
+  "description": "A dataset that provides example data for demonstration purposes.",
+  "url": "https://example.com/dataset",
+  "identifier": "https://doi.org/10.1234/example-dataset",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": {
+    "@type": "Person",
+    "name": "Jane Doe",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Example Research Institute"
+    }
+  },
+  "keywords": ["example", "demo", "dataset"],
+  "datePublished": "2023-01-15",
+  "version": "1.0"
+}
+
